@@ -1,0 +1,54 @@
+---
+title: "Name of the application I have published for Homework 1"
+date: "2024-09-15"
+categories: [GitHub, Vercel, Claude Code]
+---
+
+## Overview
+
+This project involved using Claude Code to write the code to needed to deveop an app that ...
+
+The primary purpose of this app is to:
+
+- ....
+- ....
+
+## Live Product Demo
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <!-- Open App button -->
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://tetris-game-egc6.vercel.app/"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
+
+  <!-- GitHub Source button -->
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/your-user/your-repo"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View source on GitHub
+  </a>
+</div>
+
+<iframe src="https://tetris-game-egc6.vercel.app/"
+        style="width:100%; height:900px; border:none;"
+        allowfullscreen>
+</iframe>
+
+## Technical Details
+
+Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+
+Deployment: GitHub Pages + Vercel
+
+Tools Used:
+-   Claude Code
+
+## Product Requirements Document
+
+Paste in the PRD that you submitted to Claude Code

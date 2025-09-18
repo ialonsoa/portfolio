@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: ""
+  favicon: images/prototyping-favicon.png
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: Projects
+        menu:
+          - href: projects/project-1.qmd
+            text: Name of my first app
+          #- href: projects/project-2.qmd
+          #  text: Business Case Presentation
+          #- href: projects/project-3.qmd
+          #  text: Project 3
+          #- href: projects/project-4.qmd
+          #  text: Project 4
+          #- href: projects/project-5.qmd
+          #  text: Project 5
+          #- href: projects/project-6.qmd
+          #  text: Project 6
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

@@ -1,0 +1,247 @@
+/* Custom styles for portfolio website */
+
+/* Improve overall layout and spacing */
+.quarto-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Center and improve navigation */
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Improve main content spacing */
+.quarto-title-banner {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.quarto-title-block .quarto-title h1 {
+  text-align: center;
+}
+
+/* Center the subtitle and other title elements */
+.quarto-title-block .description {
+  text-align: center;
+}
+
+.quarto-title-block .quarto-categories {
+  justify-content: center;
+}
+
+/* Hero banner styling */
+.hero-banner {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  border: 1px solid #dee2e6;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.hero-banner h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.hero-banner .btn {
+  margin: 0.25rem;
+  text-decoration: none;
+}
+
+.hero-banner .btn:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Better spacing for main content */
+main {
+  padding: 2rem 0;
+  line-height: 1.6;
+}
+
+/* Improve project grid layout */
+.grid {
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.g-col-12.g-col-md-6 {
+  padding: 1.5rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.g-col-12.g-col-md-6:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Improve typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+/* Better paragraph spacing */
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* Improve list styling */
+ul, ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Skills section styling */
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.skills-list li::before {
+  content: "▶";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+/* About page improvements */
+.about-contents {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .quarto-container {
+    padding: 0 15px;
+  }
+  
+  .grid {
+    gap: 1rem;
+  }
+  
+  .g-col-12.g-col-md-6 {
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 1rem 0;
+  }
+}
+
+/* Footer spacing */
+.nav-footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Code block styling */
+pre {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+/* Table styling */
+table {
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Profile image styling for about pages */
+.about-image {
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 0 auto 2rem;
+  display: block;
+}

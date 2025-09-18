@@ -1,0 +1,33 @@
+---
+title: "Project 5"
+description: "Project description placeholder - replace with your actual project"
+date: "2024-XX-XX"
+image: ../images/project5-preview.jpg
+categories: [Category 1, Category 2, Category 3]
+---
+
+## Project Overview
+
+Replace this content with your actual project details. This is a placeholder template for your fifth project.
+
+## Challenge
+
+Describe the specific challenge or problem you were addressing.
+
+## Approach
+
+Detail your methodology and approach to solving the problem.
+
+## Results
+
+Present your findings, outcomes, and impact.
+
+## Skills Demonstrated
+
+List the key skills this project showcases.
+
+---
+
+**Skills Demonstrated:** [Your skills here]
+
+**Tools Used:** [Your tools here]
