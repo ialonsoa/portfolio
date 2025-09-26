@@ -6,12 +6,12 @@ title: "About Me"
 
 <img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
 
-<h1>Your Name</h1>
+<h1>Alonso Inca Roca</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://www.linkedin.com/in/alonso-inca-roca-navarrete/" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/ialonsoa" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -19,45 +19,71 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+Born and raised in Cusco, Peru, I’ve always believed that business can be a force for good, helping people grow, solve problems, and create lasting impact.
 
-### Education
+I’m currently a Strategy student at the Marriott School of Business at BYU, where I’ve developed a passion for product management; the process of creating, refining, and launching ideas that truly improve lives. I love building new things and leveraging AI to design better systems, whether that’s developing tools to enhance decision-making or using technology to elevate customer experiences.
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+My journey into AI began in real estate, where I explored ways to automate and personalize customer service. That experience opened my eyes to the potential of AI as not just a tool, but as a partner in building products that scale impact.
 
-### Experience
+I’m adaptable by nature and open to discovering new paths on this track. Whether it’s learning from failure, experimenting with fresh ideas, or pushing into uncharted industries, I thrive in spaces where curiosity and creativity drive growth.
 
-#### Job/Internship Title - Company Name
-*Dates*
+## Professional Experience
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+::: {.experience-timeline}
+### Media Production Specialist Intern
+**BYU Continuing Education** | *Apr 2025 - Present*
 
-#### Another Position - Company Name
-*Dates*
+- Improved data analysis process by 25% through Teamwork and Excel
+- Boosted engagement rates by 35% by analyzing digital KPIs
+- **Tools**: Excel, Teamwork, Orion, Terminus
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+### Real Estate Consultant Intern
+**Grupo DDIAL Constructora e Inmobiliaria** | *Oct 2023 - Present*
 
-### Skills & Interests
+- $1.5+ MM monthly negotiations through effective customer follow-up system powered by AI
+- Improved customer satisfaction by 15%, increased sales by 50%
+- **Tools**: CRM systems, Customer Follow-Up System, Marketing Strategy
+:::
 
+## Education
+
+::: {.education-section}
+**Bachelor of Science in Strategic Management**
+*Brigham Young University* | Expected 2028
+
+- **Academic Achievement**: Full Scholarship 2025-26 International Students Office
+- **Relevant Coursework**: STRAT 490R, IS 201, STRAT 402, STRAT 401, ACC 200, MKTG 201
+:::
+
+## Skills & Technologies
+
+::: {.skills-grid}
+::: {.skill-category}
 **Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+- Programming: SQL, VBA
+- Analytics: Tableau, Power BI, Google Analytics, Excel
+- Product Management: Figma, Trello, Slack
+:::
 
-**Soft Skills**
-- Communication and presentation
+::: {.skill-category}
+**Core Competencies**
+- Team leadership & social intelligence
 - Cross-functional collaboration
-- Strategic thinking and problem-solving
+- Strategic thinking & problem-solving
+- Data-driven decision making
+:::
+:::
 
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+## Passions & Interests
 
-### What's Next
+::: {.interests-section}
+I'm an avid triathlete and extreme sports enthusiast who thrives on pushing boundaries—both physically and professionally. I love the outdoors, meaningful conversations, and connecting with people from diverse backgrounds.
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+What drives me most is the intersection of technology and human potential. Whether I'm analyzing data to improve business outcomes or developing AI solutions for real estate, I'm passionate about creating systems that genuinely improve people's lives.
+
+I believe that with the right mindset, every challenge is an opportunity to create something valuable.
+:::
+
+## Vision & Goals
+
+I plan to fully automate and scale my real estate business, bringing it to the next level of efficiency and growth. At the same time, I’m developing ventures like UTask, an app designed to help students connect with virtual mentors and secure stronger internships. Another key step in my journey is completing my degree at BYU and then pursuing an MBA at the University of Pennsylvania, to further expand my global impact and leadership capacity.

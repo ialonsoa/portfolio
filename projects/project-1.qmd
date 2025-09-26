@@ -1,54 +1,189 @@
 ---
-title: "Name of the application I have published for Homework 1"
+title: "F-1 Real Racing Game"
 date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+categories: [GitHub, Vercel, Claude Code, AI, Gaming]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+F-1 Real Racing Game was born from my lifelong passion for car racing, especially Formula 1. Since I was a kid, I've always dreamed of driving a fast car. With AI, I was able to bring this dream to life and create an app that mixes statistics with F1 to deliver a valuable experience to all the fans out there.
 
 The primary purpose of this app is to:
 
-- ....
-- ....
+- Provide an immersive F1 racing simulation experience
+- Integrate real F1 statistics and data for authentic gameplay
+- Offer fans an interactive way to engage with their favorite sport
+- Demonstrate the power of AI in creating engaging gaming experiences
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://f1-app-seven.vercel.app/"
      target="_blank" rel="noopener"
-     aria-label="Open live app">
-    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
-    Open App in New Tab
+     aria-label="Open F-1 Racing Game">
+    <i class="fa-solid fa-flag-checkered me-2" aria-hidden="true"></i>
+    Play F-1 Racing Game
   </a>
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/ialonsoa/f1-app"
      target="_blank" rel="noopener"
-     aria-label="Open GitHub source">
+     aria-label="View F-1 Racing Game source code">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
-    View source on GitHub
+    View Source Code
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
+<iframe src="https://f1-app-seven.vercel.app/"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Framework/Stack:** HTML5, CSS3, JavaScript
 
-Deployment: GitHub Pages + Vercel
+**Deployment:** GitHub + Vercel
 
-Tools Used:
--   Claude Code
+**Tools Used:**
+- Claude Code for development assistance
+- HTML5 Canvas for game rendering
+- JavaScript for game logic and physics simulation
+- CSS3 for styling and responsive design
 
 ## Product Requirements Document
 
-Paste in the PRD that you submitted to Claude Code
+# Product Requirements Document (PRD)
+
+## Executive Summary
+
+This PRD outlines the requirements for a **high-quality F1-inspired online multiplayer racing game**. The game combines **realistic F1 simulation mechanics** (similar to *F1 24 for Xbox*) with the **social, team-based dynamics** of *Fortnite*. Players can form complete F1-style teams, including drivers, engineers, pit crews, strategists, and sponsors, while enjoying endless customization and real-world F1 integrations.
+
+The vision is to create a **AAA online racing ecosystem** that blends competitive racing, social collaboration, analytics-driven insights, and real-world engagement, offering both hardcore F1 fans and casual gamers an immersive experience.
+
+---
+
+## Objectives & Success Metrics
+
+**Objectives:**
+
+* Deliver realistic F1 racing physics and graphics on par with leading simulation games.
+* Provide deep team-based multiplayer collaboration, allowing players to form entire racing organizations.
+* Foster an engaging community with respectful, safe interactions.
+* Integrate real-world F1 data, facts, and trivia to blur the line between real racing and virtual play.
+* Enable endless replayability through customization, analytics, and dynamic online events.
+
+**Success Metrics:**
+
+* Average daily/weekly active users.
+* Player retention (30-day retention > 40%).
+* Number of teams formed and races conducted online.
+* Positive player sentiment on community health and moderation.
+* Revenue growth through in-game purchases, sponsorship deals, and event participation.
+
+---
+
+## User Stories & Personas
+
+**Personas:**
+
+1. **Driver**: Wants realistic racing physics and competitive gameplay.
+2. **Engineer**: Enjoys strategy, analytics, and car optimization.
+3. **Pit Crew Member**: Excited to make fast, impactful race decisions.
+4. **Strategist**: Loves big-picture planning, pit stop timing, and tire strategy.
+5. **Sponsor/Manager**: Focused on branding, team economics, and customization.
+6. **Casual Gamer**: Wants fun, easy-to-join online play with friends.
+7. **F1 Fan**: Enjoys real-world integrations, trivia, and immersion in F1 culture.
+
+**User Stories:**
+
+* *As a driver*, I want realistic car control, so I feel the thrill of professional racing.
+* *As an engineer*, I want dashboards of telemetry and car performance, so I can fine-tune strategy.
+* *As a strategist*, I want to simulate pit stop timing, so I can maximize race outcomes.
+* *As a casual gamer*, I want quick matchmaking and cross-platform play, so I can race with friends easily.
+* *As a sponsor*, I want to customize branding on cars and uniforms, so I can showcase team identity.
+* *As an F1 fan*, I want to see live stats from real F1 races, so I feel connected to the sport.
+
+---
+
+## Core Features & Requirements
+
+**Must-Have Features:**
+
+* Realistic F1 car racing mechanics (physics, weather conditions, tire wear).
+* Team-based roles (driver, engineer, pit crew, strategist, sponsor).
+* Online multiplayer with matchmaking and tournaments.
+* Endless customization: cars, uniforms, pit crews, sponsors.
+* Analytics dashboards for players and teams.
+* Respect-first community tools: moderation, reporting, safe communication.
+* Integration with real-world F1 live race metrics and trivia.
+* Cross-platform support (PC, Xbox, PlayStation, cloud gaming).
+
+**Nice-to-Have Features:**
+
+* Esports integration with live broadcast tools.
+* VR racing mode.
+* Dynamic fan engagement (virtual fan clubs, team voting).
+* Sponsorship economy where brands can bid for exposure.
+
+---
+
+## Gameplay Mechanics
+
+* **Racing Physics**: Realistic tire wear, fuel management, aerodynamics, and track dynamics.
+* **Team Collaboration**: Drivers communicate with engineers/strategists mid-race; pit crew executes pit stops in real time.
+* **Customization Flow**: Car design studio (liveries, sponsors), pit crew uniforms, garage aesthetics.
+* **Dynamic Events**: Daily and weekly challenges, real-world tie-ins with actual F1 race weekends.
+
+---
+
+## Analytics & Integrations
+
+* **Analytics Layer**:
+
+  * Race performance: lap times, tire degradation, fuel efficiency.
+  * Team dashboards: player contributions, role efficiency, strategy outcomes.
+  * Global leaderboards.
+* **Real-World Integrations**:
+
+  * Live data feed of ongoing F1 races (lap times, fastest laps, DRS usage).
+  * Trivia and fun facts about current F1 drivers and teams displayed in lobbies.
+  * Predictive challenges (guess race results, integrate with in-game rewards).
+
+---
+
+## Community & Safety Guidelines
+
+* **Respect-First Policy**: Mandatory adherence to respectful conduct guidelines.
+* **Moderation Tools**: AI-assisted moderation, human review, reporting system.
+* **Safe Communication**: Text filtering, voice chat moderation, and parental controls.
+* **Positive Reinforcement**: Rewards for teams with high community ratings.
+
+---
+
+## Technical Requirements
+
+* **Platforms**: PC, Xbox, PlayStation, and potential mobile cloud support.
+* **Graphics**: AAA-level rendering (ray tracing, realistic lighting, physics simulation).
+* **Servers**: Global dedicated servers for seamless multiplayer.
+* **Scalability**: Architecture designed for millions of concurrent users.
+* **Cross-Platform Play**: Unified accounts, cloud saves, cross-platform matchmaking.
+
+---
+
+## Future Roadmap
+
+* **Esports League**: Partnership with F1 for virtual competitions.
+* **VR Integration**: Immersive F1 racing experience.
+* **Expanded Roles**: Include team PR managers, fan clubs, and media relations.
+* **Partnerships**: Collaborations with real F1 sponsors and teams.
+* **Augmented Reality (AR)**: Live overlays of race data during spectator mode.
+
+---
+
+## Conclusion
+
+This PRD provides a comprehensive vision for building a **cutting-edge F1-inspired online racing game** that merges realism, social dynamics, analytics, and real-world F1 engagement. With AAA-quality production, strong community guidelines, and endless creative customization, this game is designed to become both a **competitive esport** and a **casual social experience** for fans worldwide.

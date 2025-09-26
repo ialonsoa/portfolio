@@ -4,7 +4,7 @@ project:
 
 website:
   title: ""
-  favicon: images/prototyping-favicon.png
+  favicon: images/favicon.svg
   navbar:
     background: primary
     left:
@@ -15,7 +15,7 @@ website:
       - text: Projects
         menu:
           - href: projects/project-1.qmd
-            text: Name of my first app
+            text: F-1 Real Racing Game
           #- href: projects/project-2.qmd
           #  text: Business Case Presentation
           #- href: projects/project-3.qmd

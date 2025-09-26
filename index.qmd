@@ -6,23 +6,126 @@ title: "Welcome to My Product Management Portfolio"
 
 <img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
 
-<h1>Your Name</h1>
+<h1>Alonso Inca Roca Navarrete</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<h2> Currently, a strategy student doing junior core. I am passionate about AI, Real Estate, and Triathlons. </h2>
+
+<a href="https://www.linkedin.com/in/alonso-inca-roca-navarrete/" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/ialonsoa" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
 :::
 
+## Skills & Technologies
+
+::: {.skills-section}
+### Programming & Development
+::: {.skill-category}
+- **Languages**: VBA, SQL
+- **Frameworks**: Quarto
+- **Tools**: Git, VS Code, Claude
+:::
+
+### Product Management
+::: {.skill-category}
+- **Strategy**: Product roadmapping, Market analysis, Competitive intelligence
+- **Analytics**: Data-driven decision making, A/B testing, User research
+- **Tools**: Figma, Notion, Slack, Analytics platforms
+:::
+
+### Business & Finance
+::: {.skill-category}
+- **Analysis**: Financial modeling, Real estate valuation, Investment analysis
+- **Strategy**: Business development, Market entry strategies, Porter five forces
+- **Leadership**: Cross-functional collaboration, Stakeholder management
+:::
+:::
+
+## Achievements
+
+::: {.achievements-grid}
+::: {.achievement-card}
+**🎓 Academic Excellence**
+Strategy Core Program - early entrance as a Sophomore
+:::
+
+::: {.achievement-card}
+**🏃‍♂️ Athletic Achievement**
+3rd podium Handball Regional Games - Cusco, Peru
+:::
+
+::: {.achievement-card}
+**💼 Professional Impact**
+Led product initiatives resulting in 25% user engagement increase
+:::
+
+::: {.achievement-card}
+**🤖 AI Innovation**
+Developed AI bots that can automate responses for the Real Estate Industry
+:::
+:::
+
 ## Featured Projects
 
-::: {.g-col-12 .g-col-md-6 .card}
 
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
+::: {.projects-grid}
+::: {.g-col-12 .g-col-md-6 .card .project-card}
+<div class="project-category-tags">
+<span class="badge bg-primary project-tag" data-category="ai">AI</span>
+<span class="badge bg-secondary project-tag" data-category="web">Web</span>
+</div>
 
+### [F-1 Real Racing Game](projects/project-1.qmd)
+F-1 Real Racing Game borns thanks to my affition for car racing, especially F1, since kid I always dream to drive a fast car, with AI I was able to come with this game, and bring alive an app that mixes statistics with F1 to bring a valuable experience to all the fans out there.
 :::
+:::
+
+## Contact Me
+
+```{=html}
+<div class="contact-section">
+<form class="contact-form" id="contactForm">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="name" class="form-label">Name *</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="email" class="form-label">Email *</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="subject" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="subject" name="subject">
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Message *</label>
+    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" onclick="sendEmail(event)">Send Message</button>
+</form>
+
+<script>
+function sendEmail(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    const mailtoLink = `mailto:alonsoincarocan@gmail.com?subject=${encodeURIComponent(subject || 'Contact from Portfolio')}&body=${encodeURIComponent(`From: ${name} (${email})\n\nMessage:\n${message}`)}`;
+
+    window.location.href = mailtoLink;
+
+    // Show success message
+    alert('Opening your email client to send the message!');
+}
+</script>
+</div>
+```
 
